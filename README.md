@@ -1,10 +1,10 @@
 ## 快速开始
 
 ```
-npm run mp        // 开发小程序
-npm run build:mp  // 构建小程序
-npm run web       // 开发 web
-npm run build     // 构建 web
+npm run build:web    // 开发小程序
+npm run build:mp     // 构建小程序
+npm run dev:web      // 开发 web
+npm run dev:build    // 构建 web
 ```
 
 ## 目录说明
@@ -15,7 +15,6 @@ npm run build     // 构建 web
 │  ├─ web            // web 编译出的文件，用于生产环境
 ├─ build             // 构建相关
 ├─ src
-│  ├─ assets
 │  ├─ components     // 存放所有组件
 │  └─ index.jsx      // 入口文件，会 build 成 index.html
 ```
