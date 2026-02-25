@@ -13,6 +13,7 @@
 !.lintstagedrc.json
 !.prettierrc.json
 !README.md
+!index.html
 !package-lock.json
 !package.json
 !tsconfig.json

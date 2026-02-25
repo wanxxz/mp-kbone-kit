@@ -6,6 +6,8 @@
     "build:mp": "shx rm -rf dist/mp/* && cross-env NODE_ENV=production webpack --config build/webpack.mp.config.js --progress"
   },
   "dependencies": {
+    "@linaria/core": "7.0.0",
+    "open-props": "1.7.23",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -15,7 +17,6 @@
     "@babel/preset-env": "7.29.0",
     "@babel/preset-react": "7.28.5",
     "@babel/preset-typescript": "7.28.5",
-    "@linaria/core": "7.0.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@wyw-in-js/babel-preset": "1.0.6",
