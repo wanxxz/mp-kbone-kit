@@ -1,0 +1,10 @@
+{
+  "image": "node:lts",
+  "mounts": [
+    "source=/mnt/c/Sandbox/Yiwan/Wechat/user/current/WeChatProjects/mp-kbone-kit/dist,target=/workspace/dist,type=bind,consistency=cached"
+  ],
+  "name": "mp-kbone-kit",
+  "runArgs": ["--name", "mp-kbone-kit"],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+  "workspaceFolder": "/workspace"
+}
