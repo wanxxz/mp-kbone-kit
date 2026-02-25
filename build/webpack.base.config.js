@@ -14,7 +14,7 @@ module.exports = {
     rules: [
       {
         test: /\.[t|j]sx?$/,
-        loader: 'babel-loader',
+        use: ['babel-loader', '@wyw-in-js/webpack-loader'],
         exclude: /node_modules/
       },
       {
