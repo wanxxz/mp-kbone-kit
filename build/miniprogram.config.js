@@ -6,11 +6,11 @@ module.exports = {
   origin: 'https://miniprogram.default',
   entry: '/',
   router: {
-    home: ['/index']
+    index: ['/index']
   },
   redirect: {
-    notFound: 'home',
-    accessDenied: 'home'
+    notFound: 'index',
+    accessDenied: 'index'
   },
   generate: {
     autoBuildNpm: 'npm'
