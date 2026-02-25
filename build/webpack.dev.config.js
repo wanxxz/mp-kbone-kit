@@ -21,15 +21,6 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     },
     hot: true,
     compress: true,
-    open: false, // 自动打开浏览器
-    client: {
-      logging: 'warn',
-      overlay: {
-        // 展示全屏报错
-        warnings: false,
-        errors: true
-      }
-    },
     static: {
       publicPath: '/'
     }
